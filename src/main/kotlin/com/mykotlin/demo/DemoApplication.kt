@@ -8,5 +8,8 @@ class DemoApplication
 
 fun main(args: Array<String>) {
 	runApplication<DemoApplication>(*args)
+
+	val a:Int=3
+	println(a)
 }
 
