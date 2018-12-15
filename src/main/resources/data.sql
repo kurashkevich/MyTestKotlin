@@ -1,0 +1,9 @@
+insert into User(id, first_name, last_name) values (1, 'vlad', 'kur');
+insert into User(id, first_name, last_name) values (2, 'dan', 'vega');
+insert into User(id, first_name, last_name) values (3, 'nick', 'tor');
+insert into User(id, first_name, last_name) values (4, 'rafshan', 'americe');
+insert into User(id, first_name, last_name) values (5, 'moli', 'ironman');
+insert into User(id, first_name, last_name) values (6, 'izu', 'batman');
+insert into User(id, first_name, last_name) values (7, 'krick', 'spider');
+insert into User(id, first_name, last_name) values (8, 'implaer', 'spancer');
+insert into User(id, first_name, last_name) values (9, 'stew', 'aquaman');
