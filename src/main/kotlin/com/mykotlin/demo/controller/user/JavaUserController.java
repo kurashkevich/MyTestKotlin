@@ -22,10 +22,16 @@ public class JavaUserController {
 
     @GetMapping("/{id}")
     public User getUser(@PathVariable("id")Long id){
-        User user = javaUserService.findById(id);
+        User user = javaUserService.findByIdTst(id);
         System.out.println(user);
         return user;
     }
+
+    @GetMapping("/optional/{id}")
+    public User getUserOptional(@PathVariable("id")Long id){
+        return  javaUserService.getByIdOutOfTheBox(id).orElse(new User(id,"asd", "asdad"));
+    }
+
 
 
 }
