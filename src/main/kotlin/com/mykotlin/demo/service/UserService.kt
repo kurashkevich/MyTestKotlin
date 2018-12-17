@@ -14,7 +14,7 @@ class UserService {
         return userRepository.findAll()
     }
 
-    fun findById(id:Long): User{
+    fun findById(id:Long): User?{
         return userRepository.findUserById(id)
     }
 }

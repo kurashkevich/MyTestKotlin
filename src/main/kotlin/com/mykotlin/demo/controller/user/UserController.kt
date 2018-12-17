@@ -18,7 +18,7 @@ class UserController {
     }
 
     @GetMapping("/get/{id}")
-    fun getUserById(@PathVariable("id") id:Long) : User{
+    fun getUserById(@PathVariable("id") id:Long) : User?{
         return userService.findById(id)
     }
 
